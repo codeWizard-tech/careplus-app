@@ -1,0 +1,18 @@
+[
+    {
+        "reminder_id": "R001",
+        "type": "Medicine",
+        "description": "Take Metformin",
+        "time": "08:00 AM",
+        "frequency": "Daily",
+        "status": "Active"
+    },
+    {
+        "reminder_id": "R002",
+        "type": "Exercise",
+        "description": "Morning Walk",
+        "time": "06:30 AM",
+        "frequency": "Daily",
+        "status": "Active"
+    }
+]

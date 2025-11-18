@@ -1,0 +1,8 @@
+{
+    "user_id": "U12345",
+    "name": "John Doe",
+    "age": 32,
+    "gender": "Male",
+    "phone": "+91-9876543210",
+    "email": "johndoe@example.com"
+}

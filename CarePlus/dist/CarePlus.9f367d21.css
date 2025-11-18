@@ -1,0 +1,347 @@
+.login-container {
+  background: #e8f3ff;
+  height: 90vh;
+  font-family: Inter, sans-serif;
+  display: flex;
+}
+
+.login-card {
+  width: 350px;
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  color: #1c75bc;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.login-form input:focus {
+  border-color: #1c75bc;
+  outline: none;
+}
+
+.login-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #1c75bc;
+  border: none;
+  border-radius: 8px;
+  width: 375px;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.login-btn:hover {
+  background: #155a8a;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.right-side {
+  flex: 1.2;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  display: flex;
+}
+
+.login-image {
+  object-fit: contain;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.create-container {
+  background: #e8f3ff;
+  height: 90vh;
+  font-family: Inter, sans-serif;
+  display: flex;
+}
+
+.left-side {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.create-box {
+  width: 350px;
+  padding: 35px;
+}
+
+.title {
+  text-align: center;
+  color: #1c75bc;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.create-acc-form input {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  padding: 12px;
+}
+
+.create-acc-form input:focus {
+  border-color: #1c75bc;
+  outline: none;
+}
+
+.create-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #1c75bc;
+  border: none;
+  border-radius: 8px;
+  width: 375px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.create-btn:hover {
+  background: #155a8a;
+}
+
+.create-acc-login-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #16a34a;
+  border: none;
+  border-radius: 8px;
+  width: 375px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.create-acc-login-btn:hover {
+  background: #0f7a36;
+}
+
+.msg-success {
+  text-align: center;
+  color: green;
+  font-weight: 600;
+}
+
+.msg-error {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}
+
+.right-side {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.create-img {
+  object-fit: contain;
+  width: 500px;
+  max-width: 90%;
+}
+
+.dashboard-container {
+  background: #f4f9ff;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Inter, sans-serif;
+}
+
+.dashboard-header {
+  background: #fff;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  display: flex;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.logo-text {
+  color: #1c75bc;
+  margin: 0;
+  font-weight: 700;
+}
+
+.logout-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #d9534f;
+  border: none;
+  border-radius: 6px;
+  width: auto;
+  padding: 8px 16px;
+}
+
+.logout-btn:hover {
+  background: #b54341;
+}
+
+.tabs {
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.tab {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #d1dbe6;
+  border-radius: 6px;
+  padding: 10px 18px;
+  transition: all .2s;
+}
+
+.tab:hover {
+  background: #e8f3ff;
+}
+
+.active {
+  color: #fff;
+  background: #1c75bc;
+  border-color: #1c75bc;
+}
+
+.content-area {
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 20px;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.tab-content-box h3 {
+  color: #1c75bc;
+  margin-bottom: 15px;
+}
+
+.medical-details-container {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px 25px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.medical-details-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex-direction: column;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 50%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input[type="file"] {
+  background: #f5f5f5;
+  padding: 8px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background: #4caf50;
+  border: none;
+  border-radius: 6px;
+  width: auto;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #3d9e41;
+}
+
+.secondary-btn {
+  background: #007bff;
+}
+
+.secondary-btn:hover {
+  background: #0064d3;
+}
+
+.report-preview {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.report-preview-item {
+  margin-bottom: 8px;
+}
+
+.report-preview-item a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.report-preview-item a:hover {
+  text-decoration: underline;
+}
+
+.save-btn, .view-summary-btn {
+  width: fit-content;
+}
+
+.delete-btn, .primary-done {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=CarePlus.9f367d21.css.map */

@@ -1,0 +1,26 @@
+{
+    "user_id": "U12345",
+    "blood_group": "O+",
+    "conditions": [
+        "Diabetes",
+        "Hypertension"
+    ],
+    "allergies": [
+        "Peanuts",
+        "Dust"
+    ],
+    "medications": [
+        {
+            "name": "Metformin",
+            "dose": "500mg",
+            "frequency": "Daily"
+        },
+        {
+            "name": "Amlodipine",
+            "dose": "5mg",
+            "frequency": "Daily"
+        }
+    ],
+    "height_cm": 175,
+    "weight_kg": 72
+}

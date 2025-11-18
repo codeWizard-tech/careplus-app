@@ -1,0 +1,9 @@
+[
+    {
+        "notification_id": "N001",
+        "title": "Medicine Reminder",
+        "message": "Time to take your Metformin",
+        "timestamp": "2025-11-17 08:00",
+        "read": false
+    }
+]
